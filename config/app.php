@@ -175,6 +175,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        // https://docs.spatie.be/laravel-permission/v3/installation-laravel/
+        Spatie\Permission\PermissionServiceProvider::class,
+
+        App\Providers\ResponseMacroServiceProvider::class,
     ],
 
     /*
